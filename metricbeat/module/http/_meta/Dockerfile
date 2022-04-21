@@ -1,4 +1,4 @@
-FROM golang:1.15.7
+FROM golang:bullseye
 
 COPY test/main.go main.go
 
